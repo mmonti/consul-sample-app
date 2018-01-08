@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: de-md-processor
+  cloud:
+#    consul:
+#      enabled: true
+#      host: localhost
+#      port: 8500
+#      config:
+#        data-key: data
+#        enabled: true
+#        fail-fast: true
+#        format: yaml
+
+    config:
+      uri: http://localhost:8888
+      name: consul-sample-config
+      profile: default
